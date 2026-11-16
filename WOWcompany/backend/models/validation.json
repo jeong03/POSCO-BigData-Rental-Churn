@@ -1,0 +1,23 @@
+{
+  "metrics": {
+    "model": "LightGBM_base_tuned",
+    "test_AP": 0.6401810689256455,
+    "test_ROC_AUC": 0.8768237273599204,
+    "test_recall": 0.5439560439560439,
+    "cv_AP": 0.5803123055052046,
+    "source": "retrained_lightgbm_heldout_test"
+  },
+  "high_cut": 95,
+  "train_rows": 41005,
+  "test_rows": 10253,
+  "group_overlap": 0,
+  "csv_sha256": "b6d754d5a25241eca717c0917e6ada889c52f117efee4b9d73af2b9f1639fe10",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "lightgbm": "4.7.0",
+    "joblib": "1.5.3",
+    "shap": "0.54.1"
+  }
+}
